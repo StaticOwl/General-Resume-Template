@@ -1,0 +1,108 @@
+\documentclass[]{resume-openfont}
+
+\pagestyle{fancy}
+\resetHeaderAndFooter
+\newcommand{\expHeading}[4]{\runsubsection{\fontsize{15pt}{15pt}\selectfont{#1}}\descript{ | #2}\hfill\location{#3 | #4}\fakeNewLine}
+\newcommand{\projectHeading}[2]{\runsubsection{\fontsize{15pt}{15pt}\selectfont{#1}}\hfill\location{#2}\fakeNewLine}
+\newcommand{\educationHeading}[4]{\runsubsection{#1}\hspace*{\fill}  \location{#3 | #4}\\
+\descript{#2}\fakeNewLine}
+\newcommand{\courseWork}[1]{\textbf{Relevant Coursework:} #1}
+\newcommand{\gpa}[1]{\textbf{GPA:} #1}
+\newcommand{\stackUsed}[1]{\newline\textbf{-> Stacks: #1}}
+\newcommand{\domain}[1]{\newline\textbf{Domain: #1}}
+\newcommand{\newItem}[1]{\item{#1}\newLine}
+\newcommand{\newStyleItem}[2]{\item[#1]{#2}}
+
+
+\begin{document}
+
+\newcommand{\yourName}{\Huge \scshape Koustav Mallick}
+\newcommand{\yourWebsite}{https://staticowl.github.io}
+\newcommand{\yourEmail}{akostuv@gmail.com}
+\newcommand{\yourPhone}{+1 (260) 348-7097}
+\newcommand{\currentProfile}{Software Developer}
+\newcommand{\githubUserName}{StaticOwl}
+\newcommand{\linkedInUserName}{staticowl}
+
+\alignProfileTable
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+
+    & Email : \href{mailto:\yourEmail}{\yourEmail}
+    \\
+    
+    \ralewayBold{\href{\yourWebsite}{\Large \yourName}} & Mobile : \yourPhone
+    
+    \\
+    \currentProfile & \href{https://github.com/\githubUserName}{GitHub: \textbf{\githubUserName}}
+    \\
+    & \href{https://www.linkedin.com/in/\linkedInUserName}{LinkedIn: \textbf{\linkedInUserName}}
+    \\
+\end{tabular*}
+
+%--------------------------------------------------------------
+%     Education
+%--------------------------------------------------------------
+\section{Education}
+% Swap degree and school if your school is reputable
+\educationHeading{M.S $||$ Computer Science}{Purdue University}{Fort Wayne, IN}{2023-Present}\\
+\gpa{-/4.0}\\
+\courseWork{Deep Learning, DB Designs, Machine Learning}\\
+\sectionsep
+\educationHeading{B.E $||$ Electronics and Tele-Communication Engineering}{Jadavpur University}{Kolkata, INDIA}{2019}\\
+\gpa{8/10} \\
+\courseWork{Data Structures and Algorithms; Operating Systems; DBMS}
+\sectionsep
+%--------------------------------------------------------------
+%     Experience
+%--------------------------------------------------------------
+\section{Work Experience}
+\expHeading{Deutsche Bank}{Associate (Big Data)}{Pune, INDIA}{Jul 2019 - Aug, 2023}
+\begin{tightemize}
+\newItem{\textbf{Designed and Developed} Scala-Spark common ETL framework to be used across project, capable of running \textbf{both in GCP and Cloudera} based environments while optimising the performance of daily ingestion and process of \textbf{more than 5 TBs worth of data from 3 days to 1 hour}. Also \textbf{simplified} the framework to ingest from a \textbf{single accumulated feed} instead of \textbf{40+ different sources}.}
+\stackUsed{Spark, Scala, Maven, Hive}
+\newItem{\textbf{Developed} a \textbf{Scala-Spark} based \textbf{Independent Decision Making} Framework to provide conclusion based on column values of Data based on \textbf{Row based Matching Algorithm}, which is able to run \textbf{both on GCP and Cloudera Supported Environment}, reducing \textbf{7 daily-machine-hours to 3-5 minutes}.}
+\stackUsed{Scala, Spark, Apache AirFlow, Shell, BigQuery, Hive, Impala, Beeline}
+\newItem{\textbf{Developed AirFlow DAG Code Generator} based on simple \textbf{JSON} input from User, and can be used by any project in the Organisation.}    
+\stackUsed{Python, Jinja, AirFlow}
+\newItem{\textbf{Designed and Developed} a reporting solution replacing \textbf{COGNOS} to generate and send day-end pdf/xlsx reports to end users to meet Volcker 2.0 Regulatory Compliance, saving \textbf{tens of thousands of dollars} a year in licensing for the Organisation.}
+\stackUsed{Python, HTML, CSS, Java, Shell}
+\newItem{\textbf{Automated} End-To-End testing application for Ingestion Layer saving \textbf{approax 80 man-hours a month}.}
+    \stackUsed{Spark, Scala, Java, SQL, Hive}
+\end{tightemize}
+\sectionsep
+
+%--------------------------------------------------------------
+%     Projects
+%--------------------------------------------------------------
+\section{Projects}
+\projectHeading{ProcAlloc}{2020-2023}
+\begin{tightemize}
+    \newStyleItem{\S}{Designed a \textbf{framework to support project allocation} for new-joiners matching their priority, technical skillset and project requirements.}
+    \newStyleItem{\S}{Added support to scan resume of candidates to add weightage of choices for seamless communication between requirement and allocation, in order to provide more ideal candidate. }
+    \newLine
+    \stackUsed{Python, SQL, OCR}
+\end{tightemize}
+\sectionsep
+%--------------------------------------------------------------
+%     Skills
+%--------------------------------------------------------------
+\section{Skills}
+\begin{resumeSkillList}
+    \singleItem{Languages:}{Scala, Bash,  Java 8, Python}
+    \\
+    \singleItem{FrameWork:}{Apache Spark, Hadoop, Map Reduce, Maven, Hive, Apache AirFlow}
+    \\
+    \singleItem{Software Development:}{Oracle, Agile, GCP, Git, JIRA}
+\end{resumeSkillList}
+\sectionsep
+
+\section{Awards}
+\begin{tightemize}
+\item Received India Excellency Award in Deutsche Bank.
+\item Achieved 9th Global Position in Dabble (Hackathon Organised in Deutsche Bank on Multi-National Organisation Level).
+\item Completed Associate Level GCP Training with Distinction, held by Deutsche Bank(DBCE).
+\item Received Joint 3rd Position award in IdeaBox, an event organised in Deutsche Bank Multi-National Organisation Level.
+\item Recipient of KVPY Scholarship for graduation Years (2015-2019).
+\end{tightemize}
+\sectionsep
+\end{document}
