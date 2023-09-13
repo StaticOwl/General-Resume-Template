@@ -39,7 +39,7 @@
   <br/>
   <a href='https://profile.codersrank.io/user/staticowl/'>
   <img
-  src="https://cr-skills-chart-widget.azurewebsites.net/api/api?username=staticowl&padding=30&skills=java,scala,python"
+  src="https://cr-skills-chart-widget.azurewebsites.net/api/api?username=staticowl&padding=30"
 />
   </a>
 
