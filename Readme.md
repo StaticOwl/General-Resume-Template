@@ -1,4 +1,4 @@
-### Hi 👋, I am Ashish 
+### Hi 👋, I am Koustav 
 
 ![](https://komarev.com/ghpvc/?username=StaticOwl&style=flat-square&color=brightgreen)
 [![LinkedIn Badge](https://img.shields.io/badge/-staticowl-blue?style=flat&logo=linkedin&logoColor=white&color=blue)](https://www.linkedin.com/in/staticowl/)
