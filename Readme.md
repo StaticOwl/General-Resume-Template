@@ -8,7 +8,7 @@
 ![My Profile Overview](https://github-readme-stats.vercel.app/api?username=StaticOwl&show_icons=true&count_private=true&theme=tokyonight&hide_border=true)
 
 
-- 🤔 &nbsp;&nbsp;Checkout my Blog : [Codebrace](https://medium.com/codebrace)
+<!-- - 🤔 &nbsp;&nbsp;Checkout my Blog : [Codebrace](https://medium.com/codebrace) -->
 
 ## 🔧 Technologies & Tools
 ![](https://img.shields.io/badge/Code-Java-informational?style=flat&logo=java&logoColor=white&color=6aa6f8)
