@@ -1,6 +1,6 @@
 ### Hi 👋, I am Koustav 
 
-- 💻 I'm currently a Graduate Research Assistant working on Artificial Intelligence and Expert Systems in Medicinal Fields. I'm also a developer in PUCSChatbot.
+- 💻 I'm currently a Graduate Research Assistant working on Artificial Intelligence and Expert Systems. I'm also a developer in PUCSChatbot.
 - 👨‍💻 I'm currently pursuing MSCS in Purdue University.
 - 🤩 I'm really motivated by learning new things and exploring new technologies
 - 👨‍🍳 My hobbies include Gaming and Ping-Pong.
